@@ -88,7 +88,7 @@ body {
   display: flex;
   align-items: center;
 }
-.nft .nft-box .nft-text {
+.nft .nft-box p {
   color: hsl(178, 100%, 50%);
   font-weight: 300;
   margin-left: 10px;
@@ -96,8 +96,8 @@ body {
   font-weight: 300;
   color: hsl(215, 51%, 70%);
 }
-.nft .nft-box .nft-text p{
-  color: var(--cyan);
+.nft .nft-box p.nft-text{
+  color: hsl(178, 100%, 50%);
 }
 .nft .nft-box img {
   height: 20px;
